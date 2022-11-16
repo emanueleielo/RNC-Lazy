@@ -1,5 +1,6 @@
 {
   "name": "rnc-lazy",
+  "version": "0.0.2",
   "description": "Simple directive to use in components in lazy mode, without losing the use of @Input or @Output",
   "author": {
     "name": "Emanuele Ielo",
@@ -17,7 +18,6 @@
     "type": "git",
     "url": "git+https://github.com/emanueleielo/RNC-Lazy.git"
   },
-  "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^13.3.0",
     "@angular/core": "^13.3.0"
