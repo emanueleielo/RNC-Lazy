@@ -1,10 +1,8 @@
 # ✨ RNC - Lazy Component   ✨
-----
-#  ✨ Load easily lazy components ✨
----
+----------------------------
 
 
-## Features
+## Description
 
 >Simple directive to use in components in lazy mode, without losing the use of @Input or @Output
 
@@ -13,15 +11,14 @@
 ## Installation
 >Right now the directive has only been tested on Angular12+ but it should work with older versions as well
 
-- Install the dependencies
 
 ```sh
-npm i rnc-lazy
+npm i rnc-lazy-component
 ```
 
 ## Inputs
 
-The current developments directive accepts 3 inputs including, outputs, component, inputs and show.
+The current developments directive accepts 4 inputs including, outputs, component, inputs and show.
 
 | INPUT | DESCRIPTION | DEFAULT | REQUIRED
 | ------ | ------ | ----- | ----- |
@@ -34,7 +31,6 @@ The current developments directive accepts 3 inputs including, outputs, componen
 >Keep in mind that a complete example will be made using all the library features but that only the "component" input is a mandatory.
 
 #### Parent component.ts
-Here we have the function that takes care of loading the component
 ```sh
 // DECLARED VARS
    inputs = {NAME_OF_LAZY_COMPONENT_INPUT: 'Hi there!'};
