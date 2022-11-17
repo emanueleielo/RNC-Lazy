@@ -30,6 +30,8 @@ The current developments directive accepts 4 inputs including, outputs, componen
 ## Example
 >Keep in mind that a complete example will be made using all the library features but that only the "component" input is a mandatory.
 
+>  **Remember to remove the component from your module.ts**
+
 #### Parent component.ts
 ```sh
 // DECLARED VARS
