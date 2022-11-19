@@ -18,12 +18,12 @@ npm i rnc-lazy-component
 
 ## Inputs
 
-The current developments directive accepts 4 inputs including, outputs, component, inputs and show.
+The current developments directive accepts 4 inputs including: outputs, component, inputs and show.
 
 | INPUT | DESCRIPTION | DEFAULT | REQUIRED
 | ------ | ------ | ----- | ----- |
-| show | If TRUE the component will be loaded | TRUE | YES
-| component | The component that we can lazy-load | undefined | NO
+| show | If TRUE the component will be loaded | TRUE | NO
+| component | The component that we can lazy-load | undefined | YES
 | inputs | Object that contain the inputs that we want to pass to the lazy-component | undefined |NO
 | outputs | Object that contain the outputs that we want to pass to the lazy-component  | undefined | NO
 
