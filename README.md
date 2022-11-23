@@ -1,4 +1,4 @@
-# ✨ RNC - Lazy Component   ✨
+# ✨ RNC - Lazy Component  - Angular ✨
 ----------------------------
 
 #[Medium article](https://medium.com/@emanueleielo/how-to-easily-lazy-load-an-angular-component-in-5-minutes-843955b95d62)
