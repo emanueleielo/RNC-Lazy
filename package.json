@@ -1,6 +1,6 @@
 {
   "name": "rnc-lazy-component",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Simple directive to use in components in lazy mode, without losing the use of @Input or @Output",
   "author": {
     "name": "Emanuele Ielo",
