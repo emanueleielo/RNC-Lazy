@@ -42,7 +42,7 @@ export class LazyComponentDirective implements OnChanges {
             // Set the output values if outputs are defined
             if (this.outputs) {
               Object.keys(this.outputs).forEach(x => {
-                componentRef.instance[x].subscribe((data: any) => {
+                componentRef.instance[x]?.subscribe((data: any) => {
                   // Execute the function
                   this.outputs[x](data);
                 });
